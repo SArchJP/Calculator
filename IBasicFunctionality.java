@@ -1,11 +1,11 @@
 
 public interface IBasicFunctionality {
 	
-	public double add(double a, double b);
-	public double subtract(double a, double b);
-	public double multiply(double a, double b);
-	public double divide(double a, double b);
-	public double power(double a, double b);
+	double add(double a, double b);
+	double subtract(double a, double b);
+	double multiply(double a, double b);
+	double divide(double a, double b);
+	double power(double a, double b);
 	
 	
 }
