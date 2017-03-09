@@ -9,12 +9,12 @@ public class BasicFunctionalityMenu {
     BasicFunctionality basic = new BasicFunctionality();
 
     private double a, b;
-    private boolean quit = false;
+    private boolean quit;
     private int choose;
 
 
     public void basicFunctionality() {
-
+        quit = false;
         printInstructions();
         while (!quit) {
             choose = reader.nextInt();
@@ -43,7 +43,7 @@ public class BasicFunctionalityMenu {
                 case 6:
                     printInstructions();
                 case 7:
-                    quit = true;
+                    this.quit = true;
             }
 
         }
