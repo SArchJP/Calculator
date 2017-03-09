@@ -11,6 +11,7 @@ public class MainMenu {
         BasicFunctionalityMenu basic = new BasicFunctionalityMenu();
         TrigonometryMenu trigo = new TrigonometryMenu();
         QuadraticMenu quadratic = new QuadraticMenu();
+        DecimalBinaryOctalHexMenu decimal = new DecimalBinaryOctalHexMenu();
 
         System.out.println("Welcome to basic console calculator SVV v1.0");
         System.out.println("===================================================");
@@ -30,7 +31,7 @@ public class MainMenu {
                     quadratic.calculateQuadraticEquation();
                     break;
                 case 4:
-                    System.out.println("Four");
+                    decimal.convertDecimalBinaryOctalHexMenu();
                     break;
                 case 5:
                     printInstructions();
