@@ -1,3 +1,4 @@
+package lt.vtvpmc.interfaces;
 
 public interface ITrigonometry {
     double sin(double a);

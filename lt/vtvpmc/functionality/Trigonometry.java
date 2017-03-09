@@ -1,5 +1,8 @@
+package lt.vtvpmc.functionality;
 
-public class Trigonometry implements ITrigonometry{
+import lt.vtvpmc.interfaces.ITrigonometry;
+
+public class Trigonometry implements ITrigonometry {
 
     @Override
     public double sin(double a) {
