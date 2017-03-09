@@ -1,3 +1,6 @@
+package lt.vtvpmc.functionality;
+
+import lt.vtvpmc.interfaces.IBasicFunctionality;
 
 public class BasicFunctionality implements IBasicFunctionality {
 

@@ -1,3 +1,6 @@
+package lt.vtvpmc.functionality;
+
+import lt.vtvpmc.interfaces.IDecimalBinaryOctalHex;
 
 public class DecimalBinaryOctalHex implements IDecimalBinaryOctalHex {
     @Override

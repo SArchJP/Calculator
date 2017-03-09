@@ -1,3 +1,7 @@
+package lt.vtvpmc.functionality;
+
+import lt.vtvpmc.interfaces.IQuadratic;
+
 import java.util.Scanner;
 
 public class Quadratic implements IQuadratic {
