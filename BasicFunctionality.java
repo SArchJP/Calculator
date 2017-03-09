@@ -8,7 +8,7 @@ public class BasicFunctionality implements IBasicFunctionality {
 	}
 
 	@Override
-	public double substract(double a, double b) {
+	public double subtract(double a, double b) {
 		double answer = a - b;
 		return answer;
 	}
