@@ -9,11 +9,13 @@ public class MainMenu {
     public void start() {
         Scanner reader = new Scanner(System.in);
         BasicFunctionalityMenu basic = new BasicFunctionalityMenu();
-
+        TrigonometryMenu trigo = new TrigonometryMenu();
+        QuadraticMenu quadratic = new QuadraticMenu();
 
         System.out.println("Welcome to basic console calculator SVV v1.0");
         System.out.println("===================================================");
         printInstructions();
+
         while (!quit) {
             choose = reader.nextInt();
 
@@ -22,10 +24,10 @@ public class MainMenu {
                     basic.basicFunctionality();
                     break;
                 case 2:
-                    System.out.println("Two");
+                    trigo.trigonometryFunctionality();
                     break;
                 case 3:
-                    System.out.println("Three");
+                    quadratic.calculateQuadraticEquation();
                     break;
                 case 4:
                     System.out.println("Four");
@@ -34,7 +36,7 @@ public class MainMenu {
                     printInstructions();
                     break;
                 case 6:
-                    quit = true;
+                    this.quit = true;
 
 
             }
@@ -51,7 +53,7 @@ public class MainMenu {
                 + "===================================================\n"
                 + "5) To Print Instructions\n"
                 + "6) To Exit Calculator\n"
-                + "===================================================\n"
+                + "==================================================="
         );
     }
 }
