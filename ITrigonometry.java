@@ -1,7 +1,7 @@
 
 public interface ITrigonometry {
-    public double sin(double a);
-    public double cos(double a);
-    public double tg(double a);
-    public double ctg(double a);
+    double sin(double a);
+    double cos(double a);
+    double tg(double a);
+    double ctg(double a);
 }
